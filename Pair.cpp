@@ -16,17 +16,17 @@ Pair<T>::Pair(T f, T s) {
 	second = s; 
 }
 
-template <typename T> 
+template <typename T>
 T Pair<T>::getFirst() const {
 	return first;
 }
 
-template <typename T> 
+template <typename T>
 T Pair<T>::getSecond() const {
 	return second;
 }
 
-template <typename T> 
+template <typename T>
 void Pair<T>::setFirst(T f) {
 	first = f;
 }
