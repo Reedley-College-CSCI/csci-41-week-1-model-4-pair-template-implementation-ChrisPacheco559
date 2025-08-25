@@ -4,6 +4,7 @@ using namespace std;
 
 //Prototype functions
 void printMusicMenu();
+int searchMusic();
 
 int main() {
 
@@ -26,4 +27,8 @@ void printMusicMenu() {
 	cout << "#1: add music" << endl;
 	cout << "#2: remove music" << endl;
 	cout << "#3: Quit the program\n";
+}
+
+int searchMusic() {
+
 }
